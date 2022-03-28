@@ -14,7 +14,7 @@ function calculate () {
   const width = parseFloat(document.getElementById('width-of-rectangle').value)
 
   // process
-  const area = length * width
+  const area = length * width/2
   const perimeter = 2 * (length + width)
 
   // output
